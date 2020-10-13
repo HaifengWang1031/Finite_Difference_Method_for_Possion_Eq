@@ -9,7 +9,7 @@ f = lambda x,y: 0
 # dirichlet boundary function
 omega = 10*np.pi
 g = lambda x,y: np.sin(omega * y)*np.exp(-omega*x)
-# g = lambda x,y: np.sin(omega * y)
+
 #domain
 x_limit = (0,1)
 y_limit = (0,1)
